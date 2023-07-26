@@ -2,9 +2,9 @@
 
 ## Live Website: assignment-dynamic-form.vercel.app
 
-#### Example form JSON Schema 1: https://drive.google.com/file/d/1RUU_ueF9BbQRLReuX88w8PWe2jsz3Z3C/view
 
-#### Example form JSON Schema 2: https://drive.google.com/file/d/19_E6dSDUbiDR31wNSSvUARHxh1HeT6L4/view
+
+#### Example form JSON Schema 1: https://drive.google.com/file/d/19_E6dSDUbiDR31wNSSvUARHxh1HeT6L4/view
 
 ## Project Description:
 
