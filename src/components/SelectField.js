@@ -12,8 +12,8 @@ const SelectField = ({ data , namefield , register,errors}) => {
       <select
         // name={namefield}
         {...register(namefield, {
-          required:true
-          })}
+          required: "This field is required.", // Provide the error message here
+        })}
         className="col-span-6 bg-white p-2 rounded-lg text-sm"
       >
         {data.validate.options &&

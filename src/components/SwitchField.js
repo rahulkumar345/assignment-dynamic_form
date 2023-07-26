@@ -5,7 +5,7 @@ const SwitchField = ({ data, namefield, register, errors }) => {
   const checkboxRef = useRef(null);
   const { ref, ...rest } = register(namefield);
   const [animateToggle, setAnimateToggle] = useState(false);
-
+  const error = errors && errors[namefield];
   const handleToggle = () => {
     if (checkboxRef.current.checked) {
       checkboxRef.current.checked = false;
@@ -35,11 +35,15 @@ const SwitchField = ({ data, namefield, register, errors }) => {
           }}
           name={namefield}
           {...register(namefield, {
-            required: true
+            required: "this field is required"
           })}
           {...rest}
         />
+       
       </div>
+      <br/>
+      <div >{error && <p className="text-red-500 text-sm col-span-9">{error.message}</p>} </div>
+      
     </div>
   );
 };
