@@ -44,7 +44,7 @@
 
     1. Clone the repository
 ```bash
-  git clone HTTPS URL
+  git clone https://github.com/rahulkumar345/assignment-dynamic_form.git
 
 ```
 
